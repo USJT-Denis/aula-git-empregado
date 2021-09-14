@@ -1,9 +1,3 @@
-public class TesteEmpregado{
-public static void main (String [] args){
-Empregado e1 = new Empregado ();
-Empregado e2 = new Empregado();
-Empregado e3 = new Empregado ();
-//e agora, como configurar o tipo deles?
 
 public class TesteEmpregado{
 public static void main (String [] args){
@@ -23,6 +17,6 @@ e3.setBonus(400);
 //mostra os valores
 System.out.println (e1.calculaSalario());
 System.out.println (e2.calculaSalario());
-System.out.println
+System.out.println (e2.calculaSalario());
 }
 }
