@@ -1,7 +1,6 @@
 public class Empregado{
-    private String nome;
-    private int idade;
-    
+private String nome;
+private int idade;
 public String getNome (){
 return this.nome;
 }
@@ -14,4 +13,4 @@ return this.idade;
 public void setIdade (int idade){
 this.idade = idade;
 }
-        }
+}
